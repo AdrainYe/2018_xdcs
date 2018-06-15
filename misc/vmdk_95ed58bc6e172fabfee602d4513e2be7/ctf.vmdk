@@ -1,0 +1,21 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=4bd95765
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="monolithicFlat"
+
+# Extent description
+RW 20480 FLAT "ctf-flat.vmdk" 0
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "10"
+ddb.geometry.heads = "64"
+ddb.geometry.sectors = "32"
+ddb.longContentID = "3fec4c09befbad09c6ce9f1e4bd95765"
+ddb.uuid = "60 00 C2 97 b6 79 2a fa-ee f5 1a a6 da 52 67 6e"
+ddb.virtualHWVersion = "12"
